@@ -1,8 +1,6 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import MagicButton, { ButtonPosition } from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -28,7 +26,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Baramee Rujipatanapong"
           />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white-200">
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg text-white-200">
             Crafting efficient applications with passion and precision in
             software development.
           </p>

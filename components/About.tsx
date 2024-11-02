@@ -1,15 +1,16 @@
 import React from "react";
+import Skills from "./Skills";
 
 const About: React.FC = () => {
   return (
-    <div id="about" className="">
+    <div id="about">
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-2xl font-semibold text-center text-blue-100 max-w-80">
             About me
           </h2>
           <br />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white-200">
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg text-white-200">
             As software engineer, I thrive on the intricate balance between
             logic and creativity. Engaged in transformative projects, I
             specialize in .NET and Vue.js, where I blend technology with
@@ -24,6 +25,7 @@ const About: React.FC = () => {
           </p>
         </div>
       </div>
+      <Skills />
     </div>
   );
 };
