@@ -10,7 +10,7 @@ const Experiences = () => {
       content: (
         <div>
           <p className="text-white-100  text-2xl md:text-xl font-bold">
-            CloudCon Pty Ltd
+            Cloudcon Pty Ltd
           </p>
           <p className="text-white-200  text-xl md:text-sm font-bold mb-3">
             Associated Software Developer
@@ -70,7 +70,7 @@ const Experiences = () => {
       content: (
         <div>
           <p className="text-white-100  text-2xl md:text-xl font-bold">
-            CloudCon Pty Ltd
+            Cloudcon Pty Ltd
           </p>
           <p className="text-white-200  text-xl md:text-sm font-bold mb-3">
             Interns - Software Developer
@@ -94,6 +94,10 @@ const Experiences = () => {
   return (
     <div className="flex justify-center relative my-20 z-10">
       <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+        <h2 className="text-4xl md:text-4xl mb-4 text-white font-bold max-w-4xl text-center pb-10">
+          Experiences
+        </h2>
+
         <Timeline data={data} />
       </div>
     </div>

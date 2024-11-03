@@ -32,12 +32,6 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full bg-neutral-700/50 font-sans md:px-10 rounded-lg"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto pt-20 pb-10 px-4 md:px-8 lg:px-10">
-        <h2 className="text-4xl md:text-4xl mb-4 text-white-100 font-bold max-w-4xl">
-          Experiences
-        </h2>
-      </div>
-
       <div ref={ref} className="relative max-w-7xl mx-auto pb-10">
         {data.map((item, index) => (
           <div
