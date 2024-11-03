@@ -1,12 +1,20 @@
+import { NavItem } from "@/components/ui/FloatingNav";
 import { InfiniteMovingCardItem } from "@/components/ui/InfiniteMovingCards";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import {
+  faCommentDots,
+  faEnvelope,
+  faHome,
+  faInfoCircle,
+  faProjectDiagram,
+} from "@fortawesome/free-solid-svg-icons";
 
-export const navItems = [
-  { name: "Home", link: "/" },
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+export const navItems: NavItem[] = [
+  { name: "Home", link: "/", icon: faHome },
+  { name: "About", link: "#about", icon: faInfoCircle },
+  { name: "Projects", link: "#projects", icon: faProjectDiagram },
+  { name: "Testimonials", link: "#testimonials", icon: faCommentDots },
+  { name: "Contact", link: "#contact", icon: faEnvelope },
 ];
 
 export const skillItems: InfiniteMovingCardItem[] = [
