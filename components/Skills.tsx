@@ -1,8 +1,6 @@
 import React from "react";
-import {
-  InfiniteMovingCardItem,
-  InfiniteMovingCards,
-} from "./ui/InfiniteMovingCards";
+import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
+import { skillItems } from "@/data";
 
 const Skills = () => {
   return (
@@ -12,16 +10,7 @@ const Skills = () => {
           Skills
         </h2>
         <br />
-        <InfiniteMovingCards
-          items={[
-            {
-              quote:
-                "As software engineer, I thrive on the intricate balance between logic and creativity. Engaged in transformative projects, I specialize in .NET and Vue.js, where I blend technology with innovation to create scalable and impactful applications. With a fervor for crafting elegant solutions, I navigate the ever-evolving landscape of software development. My journey involves translating complex concepts into efficient code, creating seamless user experiences, and continually pushing the boundaries of what's possible in the tech",
-              name: "Baramee Rujipatanapong",
-              title: "title",
-            } as InfiniteMovingCardItem,
-          ]}
-        />
+        <InfiniteMovingCards items={skillItems} />
       </div>
     </div>
   );

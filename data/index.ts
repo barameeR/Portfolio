@@ -1,9 +1,51 @@
+import { InfiniteMovingCardItem } from "@/components/ui/InfiniteMovingCards";
+
 export const navItems = [
   { name: "Home", link: "/" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
+];
+
+export const skillItems: InfiniteMovingCardItem[] = [
+  {
+    icon: "bitbucket",
+    description: "Manages code repositories every day at work.",
+  },
+  {
+    icon: "csharp",
+    description: "Powers backend systems in daily development.",
+  },
+  {
+    icon: "vuejs",
+    description: "Key tool for building user interfaces regularly.",
+  },
+  {
+    icon: "mysql",
+    description: "Works with EF for efficient database operations.",
+  },
+  { icon: "nextjs", description: "Diving into Next.js for advanced web apps." },
+  {
+    icon: "reactjs",
+    description: "Exploring React to build dynamic interfaces.",
+  },
+  {
+    icon: "aws",
+    description: "Aiming for cloud certification with AWS learning.",
+  },
+  {
+    icon: "atlassian",
+    description: "Central to project organization and management.",
+  },
+  {
+    icon: "jira",
+    description: "Essential for tracking tasks and project milestones.",
+  },
+  {
+    icon: "tailwindcss",
+    description: "Adopting TailwindCSS for efficient styling.",
+  },
 ];
 
 export const gridItems = [
