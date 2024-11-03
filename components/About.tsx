@@ -1,9 +1,10 @@
 import React from "react";
 import Skills from "./Skills";
+import { SectionWrapper } from "@/data";
 
 const About: React.FC = () => {
   return (
-    <div id="about">
+    <div id="about" className="min-h-screen">
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-2xl font-semibold text-center text-blue-100 max-w-80">
@@ -30,4 +31,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default SectionWrapper({ Component: About, id: "about" });

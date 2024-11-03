@@ -66,7 +66,7 @@ export const InfiniteMovingCards = ({
       } else if (speed === "normal") {
         containerRef.current.style.setProperty("--animation-duration", "40s");
       } else {
-        containerRef.current.style.setProperty("--animation-duration", "80s");
+        containerRef.current.style.setProperty("--animation-duration", "60s");
       }
     }
   };
@@ -97,10 +97,13 @@ export const InfiniteMovingCards = ({
           >
             <blockquote>
               <div className="flex justify-center items-center">
-                <StackIcon name={item.icon} />
+                <StackIcon
+                  className="w-12 h-12 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-32 lg:h-32"
+                  name={item.icon}
+                />
               </div>
 
-              <span className="relative z-20 text-base leading-[1.6] text-gray-100 font-normal text-center block pt-4">
+              <span className="relative z-20 text-base leading-[1.6] text-gray-100 font-normal text-center block pt-4 sm:text-sm">
                 {item.description}
               </span>
             </blockquote>

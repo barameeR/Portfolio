@@ -1,4 +1,5 @@
 import { InfiniteMovingCardItem } from "@/components/ui/InfiniteMovingCards";
+import SectionWrapper from "@/components/ui/SectionWrapper";
 
 export const navItems = [
   { name: "Home", link: "/" },
@@ -11,43 +12,46 @@ export const navItems = [
 export const skillItems: InfiniteMovingCardItem[] = [
   {
     icon: "bitbucket",
-    description: "Manages code repositories every day at work.",
+    description: "Manages code repositories daily at work.",
   },
   {
     icon: "csharp",
-    description: "Powers backend systems in daily development.",
+    description: "Powers back-end systems in daily development.",
   },
   {
     icon: "vuejs",
-    description: "Key tool for building user interfaces regularly.",
+    description: "Essential tool for crafting user interfaces regularly.",
   },
   {
     icon: "mysql",
     description: "Works with EF for efficient database operations.",
   },
-  { icon: "nextjs", description: "Diving into Next.js for advanced web apps." },
+  {
+    icon: "nextjs",
+    description: "Exploring Next.js for advanced web applications.",
+  },
   {
     icon: "reactjs",
-    description: "Exploring React to build dynamic interfaces.",
+    description: "Investigating React to develop dynamic interfaces.",
   },
   {
     icon: "aws",
-    description: "Aiming for cloud certification with AWS learning.",
+    description: "Pursuing cloud certification through AWS studies.",
   },
   {
     icon: "atlassian",
-    description: "Central to project organization and management.",
+    description: "Central to project organisation and management.",
   },
   {
     icon: "jira",
-    description: "Essential for tracking tasks and project milestones.",
+    description: "Vital for tracking tasks and project milestones.",
   },
   {
     icon: "tailwindcss",
-    description: "Adopting TailwindCSS for efficient styling.",
+    description: "Using TailwindCSS for effective styling solutions.",
   },
 ];
-
+export { SectionWrapper };
 export const gridItems = [
   {
     id: 1,
