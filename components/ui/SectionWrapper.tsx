@@ -1,10 +1,9 @@
 import React from "react";
-interface SectionWrapperProps {
-  Component: React.ComponentType;
-  id: string;
-}
 
-const SectionWrapper = ({ Component, id }: SectionWrapperProps): React.FC => {
+const SectionWrapper = (
+  Component: React.ComponentType,
+  id: string,
+): React.FC => {
   const WrappedComponent: React.FC = () => (
     <section
       id={id}

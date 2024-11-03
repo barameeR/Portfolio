@@ -22,4 +22,4 @@ const Hero: React.FC = () => {
   );
 };
 
-export default SectionWrapper({ Component: Hero, id: "hero" });
+export default SectionWrapper(Hero, "hero");
