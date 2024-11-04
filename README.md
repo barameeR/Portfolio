@@ -20,4 +20,5 @@ The purpose of this portfolio is to:
 - Serve as a professional online presence for networking and job opportunities.
 
 Feel free to explore and reach out if you have any questions or opportunities!
-<div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:56.11%;position:relative;"><iframe width="360" height="202" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/98w468"></iframe></div><p><a href="https://imgflip.com/gif/98w468">via Imgflip</a></p></div>
+
+<img src="https://imgflip.com/gif/98w468" alt="Funny Cat" width="300" height="200">
