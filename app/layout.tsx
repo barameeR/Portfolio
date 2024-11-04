@@ -17,6 +17,19 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Baramee Rujipatanapong's Portfolio",
   description: "Welcome to Baramee Rujipatanapong's personal portfolio website",
+  generator: "Next.js",
+  keywords: [
+    "software developer",
+    "developer",
+    "programmer",
+    "full-stack developer",
+    "portfolio",
+    "Baramee Rujipatanapong",
+    "Baramee",
+    "Rujipatanapong",
+    "Baramee Rujipatanapong's Portfolio",
+    "Baramee's Portfolio",
+  ],
 };
 
 export default function RootLayout({
