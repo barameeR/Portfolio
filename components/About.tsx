@@ -21,8 +21,8 @@ const About: React.FC = () => {
             With a fervor for crafting elegant solutions, I navigate the
             ever-evolving landscape of software development. My journey involves
             translating complex concepts into efficient code, creating seamless
-            user experiences, and continually pushing the boundaries of what's
-            possible in the tech world.
+            user experiences, and continually pushing the boundaries of
+            what&apos;s possible in the tech world.
           </p>
         </div>
       </div>

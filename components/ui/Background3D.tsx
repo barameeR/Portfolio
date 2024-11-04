@@ -33,7 +33,7 @@ const StarBackground = (props: StarBackgroundProps) => {
     return positions;
   });
 
-  useFrame((state, delta) => {
+  useFrame((_state, delta) => {
     if (ref.current) {
       ref.current.rotation.x -= delta / 10;
       ref.current.rotation.y -= delta / 15;
@@ -55,7 +55,7 @@ const StarBackground = (props: StarBackgroundProps) => {
   );
 };
 
-const StarsCanvas: React.FC<{}> = () => (
+const StarsCanvas: React.FC<Record<string, never>> = () => (
   <div className="w-full h-auto fixed inset-0 z-[1] bg-black-100">
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
