@@ -3,6 +3,7 @@ import Contact from "@/components/Contact";
 import Experiences from "@/components/Experiences";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
+import Footer from "@/components/ui/Footer";
 import { navItems } from "@/data";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <About />
         <Experiences />
         <Contact />
+        <Footer />
       </div>
     </main>
   );

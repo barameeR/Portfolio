@@ -21,9 +21,17 @@ interface StarBackgroundProps {
 
 const StarBackground = (props: StarBackgroundProps) => {
   const ref = useRef<THREE.Points>(null);
-  const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.2 }),
-  );
+  const [sphere] = useState(() => {
+    const positions = random.inSphere(new Float32Array(5000), { radius: 1.2 });
+    // Validate positions to ensure there are no NaN values
+    for (let i = 0; i < positions.length; i++) {
+      if (isNaN(positions[i])) {
+        console.error(`NaN value found at index ${i} in position attribute`);
+        positions[i] = 0; // Replace NaN values with 0 or any other valid value
+      }
+    }
+    return positions;
+  });
 
   useFrame((state, delta) => {
     if (ref.current) {
